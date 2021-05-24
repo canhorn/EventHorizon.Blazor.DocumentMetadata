@@ -4,6 +4,14 @@
         <LangVersion>9.0</LangVersion>
         <Nullable>enable</Nullable>
         <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+
+        <AssemblyTitle>EventHorizon.Blazor.DocumentMetadata</AssemblyTitle>
+        <AssemblyName>EventHorizon.Blazor.DocumentMetadata</AssemblyName>
+        <PackageId>EventHorizon.Blazor.DocumentMetadata</PackageId>
+
+        <Description>This package helps to address the issue of setting the Metadata tags of the head, on initial page request and on page navigation.</Description>
+        <PackageTags>Blazor, SEO, Metadata</PackageTags>
+
     </PropertyGroup>
         
     <ItemGroup>
