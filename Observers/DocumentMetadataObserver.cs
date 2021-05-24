@@ -66,7 +66,6 @@
         }
         void NotifyListener(Action<IEnumerable<Renderer>> callback)
         {
-            Console.WriteLine("NotifiyListeners");
             callback(_metadataService.GetRenderers(_navigationManager.GetCurrentPageName()));
         }
 

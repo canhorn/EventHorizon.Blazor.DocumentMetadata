@@ -18,7 +18,6 @@ namespace EventHorizon.Blazor.DocumentMetadata.Renderers
 
         public int LinkRender(RenderTreeBuilder renderTreeBuilder, int seq, NavigationManager _)
         {
-            System.Console.WriteLine("Link Renderer");
             renderTreeBuilder.OpenElement(seq + 0, "link");
             renderTreeBuilder.AddAttribute(seq + 1, "rel", _name);
             renderTreeBuilder.AddAttribute(seq + 2, "href", _mainAttributeValue);
