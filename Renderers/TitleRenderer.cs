@@ -19,7 +19,6 @@ namespace EventHorizon.Blazor.DocumentMetadata.Renderers
 
         public int TitleRender(RenderTreeBuilder renderTreeBuilder, int seq, NavigationManager _)
         {
-            Console.WriteLine("render title");
             renderTreeBuilder.OpenElement(seq + 0, "title");
             renderTreeBuilder.AddContent(seq + 1, string.Format("{0}", _mainAttributeValue));
             renderTreeBuilder.CloseElement();
