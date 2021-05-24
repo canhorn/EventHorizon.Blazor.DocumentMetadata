@@ -4,7 +4,7 @@ This package helps to address the issue of setting the Metadata tags of the head
 
 Since the Blazor framework does not provide any way to change a document's metadata at runtime (for document metadata: page title, meta tags, and other SEO-related data). This utility helps to address this issue.
 
-This library is heavily influence by <a href="https://github.com/DevExpress/Blazor/tree/master/tools/DevExpress.Blazor.DocumentMetadata">https://github.com/DevExpress/Blazor/tree/master/tools/DevExpress.Blazor.DocumentMetadata</a>, this package is an modernized, configuration up front version, and easy dynamic updates.
+This library is heavily influence by <a href="https://github.com/DevExpress/Blazor/tree/master/tools/DevExpress.Blazor.DocumentMetadata">https://github.com/DevExpress/Blazor/tree/master/tools/DevExpress.Blazor.DocumentMetadata</a>, this package is a modernized, configuration up front, and easy dynamic updating version.
 
 ## How to Used
 
